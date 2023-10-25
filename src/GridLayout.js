@@ -10,10 +10,6 @@ import { BsPlusCircleFill } from 'react-icons/bs'
 import tiles from './dummyData.json'
 
 function GridLayout() {
-    const timestamp = 1698090600000;
-    const date = new Date(timestamp);
-    const formattedTime = date.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
-
     return (
         <section>
             <Grid bg={'gray.200'}
@@ -30,12 +26,11 @@ function GridLayout() {
                                         {tileData.displayTileName}
                                     </Heading>
 
-                                    <Box /* width={'fit-content'} */ flex={1} bg={'blue.500'} position={'relative'}/*  alignItems="center" justifyContent="flex-start" wrap='wrap' rowGap={0} columnGap={0} */>
+                                    <Box flex={1} bg={'blue.500'} position={'relative'}/*  alignItems="center" justifyContent="flex-start" wrap='wrap' rowGap={0} columnGap={0} */>
                                         {
                                             tileData.providerInfo.map((provider, index) => {
                                                 return (
                                                     <Box key={index} position={'absolute'} right={(tileData.providerInfo.length * 4) - (index * 4)} top={0}>
-                                                        {/* {index} */}
                                                         <Image src={`${provider.profileImage}`} alt={`${provider.providerId}`}
                                                             height={'30px'} width={'30px'} borderRadius={'full'} border='2px' borderColor='white' />
                                                     </Box>
