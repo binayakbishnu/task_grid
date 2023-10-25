@@ -5,7 +5,6 @@ import GridLayout from "./GridLayout";
 
 // styles and media
 
-
 // misc
 
 const App = () => {

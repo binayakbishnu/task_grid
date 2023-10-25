@@ -3,7 +3,6 @@ import React from 'react'
 import { Box, Flex, Grid, GridItem, Heading, Icon, Image, Text } from '@chakra-ui/react'
 
 // styles and media
-// import { RepeatClockIcon } from '@chakra-ui/icons';
 import { BsAlarm } from 'react-icons/bs'
 import { BsPlusCircleFill } from 'react-icons/bs'
 
@@ -18,12 +17,7 @@ function GridLayout() {
     return (
         <section>
             <Grid bg={'gray.200'}
-                /* templateAreas={`"header header" "nav footer"`} */
                 templateColumns={{ sm: 'repeat(1,fr)', sm: 'repeat(4, 1fr)' , md: 'repeat(6, 1fr)' }} gap={4} padding={2}>
-                {/* <GridItem pl='2' bg='orange.300' area={'header'}>
-                    Header
-                </GridItem> */}
-
                 {
                     tiles.skills.map((tileData, index) => {
                         return (
@@ -67,10 +61,8 @@ function GridLayout() {
                                                         'Tomorrow' :
                                                         new Date(tileData.availability?.startTime).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' })
                                             }
-                                            {/* {new Date(tileData.availability?.startTime).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' })} */}
                                             -{new Date(tileData.availability?.endTime).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' })}
                                         </Text>
-                                        {/* <RepeatClockIcon color={'green.600'} /> */}
                                         <Icon as={BsAlarm} color={'green.600'} />
                                     </Flex>
                                 }
@@ -83,10 +75,6 @@ function GridLayout() {
                         )
                     })
                 }
-
-                {/* <GridItem pl='2' bg='blue.300' area={'footer'}>
-                    Footer
-                </GridItem> */}
             </Grid>
         </section>
     )
