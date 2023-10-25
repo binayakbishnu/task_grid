@@ -13,7 +13,7 @@ function GridLayout() {
     return (
         <section>
             <Grid bg={'gray.200'}
-                templateColumns={{ sm: 'repeat(1,fr)', sm: 'repeat(4, 1fr)' , md: 'repeat(6, 1fr)' }} gap={4} padding={2}>
+                templateColumns={{ sm: 'repeat(1,fr)', sm: 'repeat(4, 1fr)', md: 'repeat(6, 1fr)' }} gap={4} padding={2}>
                 {
                     tiles.skills.map((tileData, index) => {
                         return (
@@ -28,16 +28,33 @@ function GridLayout() {
 
                                     <Box flex={1} bg={'blue.500'} position={'relative'}/*  alignItems="center" justifyContent="flex-start" wrap='wrap' rowGap={0} columnGap={0} */>
                                         {
+                                            tileData.providerInfo.length <= 4 &&
                                             tileData.providerInfo.map((provider, index) => {
                                                 return (
-                                                    <Box key={index} position={'absolute'} right={(tileData.providerInfo.length * 4) - (index * 4)} top={0}>
+                                                    <Box key={index} position={'absolute'} right={(tileData.providerInfo.length * 4) - ((index + 1) * 4)} top={0}>
                                                         <Image src={`${provider.profileImage}`} alt={`${provider.providerId}`}
                                                             height={'30px'} width={'30px'} borderRadius={'full'} border='2px' borderColor='white' />
                                                     </Box>
                                                 );
                                             })
                                         }
-                                        <Icon as={BsPlusCircleFill} color={'gray.500'} width={'30px'} height={'30px'} position={'absolute'} right={0} />
+
+                                        {/* for more than 4 providers */}
+                                        {
+                                            tileData.providerInfo.length > 4 &&
+                                            tileData.providerInfo.map((provider, index) => {
+                                                return (
+                                                    <Box key={index} position={'absolute'} right={(tileData.providerInfo.length * 4) - ((index) * 4)} top={0}>
+                                                        <Image src={`${provider.profileImage}`} alt={`${provider.providerId}`}
+                                                            height={'30px'} width={'30px'} borderRadius={'full'} border='2px' borderColor='white' />
+                                                    </Box>
+                                                );
+                                            })
+                                        }
+                                        {
+                                            tileData.providerInfo.length > 4 &&
+                                            <Icon as={BsPlusCircleFill} color={'gray.500'} width={'30px'} height={'30px'} position={'absolute'} right={0} />
+                                        }
                                     </Box>
                                 </Flex>
 
