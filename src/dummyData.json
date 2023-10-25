@@ -1,0 +1,437 @@
+{
+  "skills": [
+    {
+      "displayTileName": "Strength Training",
+      "tileName": "Strength Training",
+      "type": "dictionary",
+      "dictionaryName": "physical fitness",
+      "tileBackground": "",
+      "skillIcon": "",
+      "availability": {
+        "status": 1,
+        "color": "#FFB800",
+        "startTime": 1698090600000,
+        "endTime": 1698132600000
+      },
+      "moreProvidersAvailable": false,
+      "providerInfo": [
+        {
+          "providerId": 3308,
+          "startTime": 1698090600000,
+          "endTime": 1698132600000,
+          "profileImage": "https://images-dev.taskhuman.com/profileImages/3308_1675837702195.jpg"
+        }
+      ],
+      "isFavorite": false,
+      "columns": 3
+    },
+    {
+      "displayTileName": "Hatha Yoga",
+      "tileName": "Hatha Yoga",
+      "type": "dictionary",
+      "dictionaryName": "physical fitness",
+      "tileBackground": "",
+      "skillIcon": "",
+      "availability": {
+        "status": 1,
+        "color": "#FFB800",
+        "startTime": 1698090600000,
+        "endTime": 1698132600000
+      },
+      "moreProvidersAvailable": false,
+      "providerInfo": [
+        {
+          "providerId": 3308,
+          "startTime": 1698090600000,
+          "endTime": 1698132600000,
+          "profileImage": "https://images-dev.taskhuman.com/profileImages/3308_1675837702195.jpg"
+        },
+        {
+          "providerId": 4160,
+          "startTime": 1698211800000,
+          "endTime": 1698213000000,
+          "profileImage": "https://images-dev.taskhuman.com/profileImages/4160_1691059816708.jpg"
+        }
+      ],
+      "isFavorite": false,
+      "columns": 3
+    },
+    {
+      "displayTileName": "Power Yoga",
+      "tileName": "Power Yoga",
+      "type": "dictionary",
+      "dictionaryName": "physical fitness",
+      "tileBackground": "",
+      "skillIcon": "",
+      "availability": {
+        "status": 1,
+        "color": "#FFB800",
+        "startTime": 1698058800000,
+        "endTime": 1698085800000
+      },
+      "moreProvidersAvailable": false,
+      "providerInfo": [
+        {
+          "providerId": 1994,
+          "startTime": 1698058800000,
+          "endTime": 1698085800000,
+          "profileImage": "https://images-dev.taskhuman.com/profileImages/1994_1675922156020.jpg"
+        }
+      ],
+      "isFavorite": false,
+      "columns": 3
+    },
+    {
+      "displayTileName": "Bikram Yoga",
+      "tileName": "Bikram Yoga",
+      "type": "dictionary",
+      "dictionaryName": "physical fitness",
+      "tileBackground": "",
+      "skillIcon": "",
+      "availability": {
+        "status": 1,
+        "color": "#FFB800",
+        "startTime": 1698132000000,
+        "endTime": 1698132600000
+      },
+      "moreProvidersAvailable": false,
+      "providerInfo": [
+        {
+          "providerId": 4618,
+          "startTime": 1698132000000,
+          "endTime": 1698132600000,
+          "profileImage": "https://images-dev.taskhuman.com/profileImages/4618_1695813923084.jpg"
+        }
+      ],
+      "isFavorite": false,
+      "columns": 3
+    },
+    {
+      "displayTileName": "Restorative Yoga",
+      "tileName": "Restorative Yoga",
+      "type": "dictionary",
+      "dictionaryName": "physical fitness",
+      "tileBackground": "",
+      "skillIcon": "",
+      "availability": {
+        "status": 1,
+        "color": "#FFB800",
+        "startTime": 1698058800000,
+        "endTime": 1698085800000
+      },
+      "moreProvidersAvailable": false,
+      "providerInfo": [
+        {
+          "providerId": 1994,
+          "startTime": 1698058800000,
+          "endTime": 1698085800000,
+          "profileImage": "https://images-dev.taskhuman.com/profileImages/1994_1675922156020.jpg"
+        }
+      ],
+      "isFavorite": false,
+      "columns": 3
+    },
+
+    {
+      "displayTileName": "Martial Arts",
+      "tileName": "Martial Arts",
+      "type": "dictionary",
+      "dictionaryName": "physical fitness",
+      "tileBackground": "",
+      "skillIcon": "",
+      "availability": {
+        "status": 1,
+        "color": "#FFB800",
+        "startTime": 1698211800000,
+        "endTime": 1698213000000
+      },
+      "moreProvidersAvailable": false,
+      "providerInfo": [
+        {
+          "providerId": 4160,
+          "startTime": 1698211800000,
+          "endTime": 1698213000000,
+          "profileImage": "https://images-dev.taskhuman.com/profileImages/4160_1691059816708.jpg"
+        }
+      ],
+      "isFavorite": false,
+      "columns": 3
+    },
+    {
+      "displayTileName": "High Intensity Interval Training",
+      "tileName": "High Intensity Interval Training",
+      "type": "dictionary",
+      "dictionaryName": "physical fitness",
+      "tileBackground": "",
+      "skillIcon": "",
+      "availability": {
+        "status": 1,
+        "color": "#FFB800",
+        "startTime": 1698090600000,
+        "endTime": 1698132600000
+      },
+      "moreProvidersAvailable": false,
+      "providerInfo": [
+        {
+          "providerId": 3308,
+          "startTime": 1698090600000,
+          "endTime": 1698132600000,
+          "profileImage": "https://images-dev.taskhuman.com/profileImages/3308_1675837702195.jpg"
+        }
+      ],
+      "isFavorite": false,
+      "columns": 3
+    },
+    {
+      "displayTileName": "Stretching",
+      "tileName": "Stretching",
+      "type": "dictionary",
+      "dictionaryName": "physical fitness",
+      "tileBackground": "",
+      "skillIcon": "",
+      "availability": {
+        "status": 1,
+        "color": "#FFB800",
+        "startTime": 1698090600000,
+        "endTime": 1698132600000
+      },
+      "moreProvidersAvailable": false,
+      "providerInfo": [
+        {
+          "providerId": 3308,
+          "startTime": 1698090600000,
+          "endTime": 1698132600000,
+          "profileImage": "https://images-dev.taskhuman.com/profileImages/3308_1675837702195.jpg"
+        }
+      ],
+      "isFavorite": false,
+      "columns": 3
+    },
+    {
+      "displayTileName": "Boxing",
+      "tileName": "Boxing",
+      "type": "dictionary",
+      "dictionaryName": "physical fitness",
+      "tileBackground": "",
+      "skillIcon": "",
+      "availability": {
+        "status": 1,
+        "color": "#FFB800",
+        "startTime": 1698211800000,
+        "endTime": 1698213000000
+      },
+      "moreProvidersAvailable": false,
+      "providerInfo": [
+        {
+          "providerId": 4160,
+          "startTime": 1698211800000,
+          "endTime": 1698213000000,
+          "profileImage": "https://images-dev.taskhuman.com/profileImages/4160_1691059816708.jpg"
+        }
+      ],
+      "isFavorite": false,
+      "columns": 3
+    },
+    {
+      "displayTileName": "Tabata",
+      "tileName": "Tabata",
+      "type": "dictionary",
+      "dictionaryName": "physical fitness",
+      "tileBackground": "",
+      "skillIcon": "",
+      "availability": {
+        "status": 1,
+        "color": "#FFB800",
+        "startTime": 1698211800000,
+        "endTime": 1698213000000
+      },
+      "moreProvidersAvailable": false,
+      "providerInfo": [
+        {
+          "providerId": 4160,
+          "startTime": 1698211800000,
+          "endTime": 1698213000000,
+          "profileImage": "https://images-dev.taskhuman.com/profileImages/4160_1691059816708.jpg"
+        }
+      ],
+      "isFavorite": false,
+      "columns": 3
+    },
+    {
+      "displayTileName": "Holistic Health",
+      "tileName": "Holistic Health",
+      "type": "dictionary",
+      "dictionaryName": "physical fitness",
+      "tileBackground": "",
+      "skillIcon": "",
+      "availability": {
+        "status": 1,
+        "color": "#FFB800",
+        "startTime": 1698211800000,
+        "endTime": 1698213000000
+      },
+      "moreProvidersAvailable": false,
+      "providerInfo": [
+        {
+          "providerId": 4160,
+          "startTime": 1698211800000,
+          "endTime": 1698213000000,
+          "profileImage": "https://images-dev.taskhuman.com/profileImages/4160_1691059816708.jpg"
+        }
+      ],
+      "isFavorite": false,
+      "columns": 3
+    },
+    {
+      "displayTileName": "Ashtanga Yoga",
+      "tileName": "Ashtanga Yoga",
+      "type": "dictionary",
+      "dictionaryName": "physical fitness",
+      "tileBackground": "",
+      "skillIcon": "",
+      "availability": {
+        "status": 2,
+        "color": "#DBDBDB"
+      },
+      "moreProvidersAvailable": false,
+      "providerInfo": [
+        {
+          "providerId": 510,
+          "profileImage": "https://images-dev.taskhuman.com/profileImages/510_1673525742367.jpg"
+        },
+        {
+          "providerId": 700,
+          "profileImage": "https://s3.us-east-2.amazonaws.com/images-dev.taskhuman.com/profileImages/700_1616768948110.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA52FNOKL7UYI5E4EM%2F20231023%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20231023T034437Z&X-Amz-Expires=43200&X-Amz-Signature=f58e42726ee6caa12331570234191496a3572230e091c2cd6fbf71bc0a40ede9&X-Amz-SignedHeaders=host"
+        }
+      ],
+      "isFavorite": false,
+      "columns": 3
+    },
+    {
+      "displayTileName": "Calisthenics",
+      "tileName": "Calisthenics",
+      "type": "dictionary",
+      "dictionaryName": "physical fitness",
+      "tileBackground": "",
+      "skillIcon": "",
+      "availability": {
+        "status": 2,
+        "color": "#DBDBDB"
+      },
+      "moreProvidersAvailable": false,
+      "providerInfo": [
+        {
+          "providerId": 1011,
+          "profileImage": "https://s3.us-east-2.amazonaws.com/images-dev.taskhuman.com/profileImages/1011_1616768948129.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA52FNOKL7UYI5E4EM%2F20231023%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20231023T034437Z&X-Amz-Expires=43200&X-Amz-Signature=7e03a897e75dd84e290058dfd17e7a4880dcc863ce029d25874013769fd7a9cf&X-Amz-SignedHeaders=host"
+        }
+      ],
+      "isFavorite": false,
+      "columns": 3
+    },
+    {
+      "displayTileName": "Kickboxing",
+      "tileName": "Kickboxing",
+      "type": "dictionary",
+      "dictionaryName": "physical fitness",
+      "tileBackground": "",
+      "skillIcon": "",
+      "availability": {
+        "status": 2,
+        "color": "#DBDBDB"
+      },
+      "moreProvidersAvailable": false,
+      "providerInfo": [
+        {
+          "providerId": 1079,
+          "profileImage": "https://s3.us-east-2.amazonaws.com/images-dev.taskhuman.com/profileImages/1079_1616768979445.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA52FNOKL7UYI5E4EM%2F20231023%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20231023T034437Z&X-Amz-Expires=43200&X-Amz-Signature=a389abba6c0686b4a7567a212ab68868f083409dcf2d51208c5c21a674f2ace1&X-Amz-SignedHeaders=host"
+        }
+      ],
+      "isFavorite": false,
+      "columns": 3
+    },
+    {
+      "displayTileName": "Home-Based Workouts",
+      "tileName": "Home-Based Workouts",
+      "type": "dictionary",
+      "dictionaryName": "physical fitness",
+      "tileBackground": "",
+      "skillIcon": "",
+      "availability": {
+        "status": 2,
+        "color": "#DBDBDB"
+      },
+      "moreProvidersAvailable": false,
+      "providerInfo": [
+        {
+          "providerId": 687,
+          "profileImage": "https://s3.us-east-2.amazonaws.com/images-dev.taskhuman.com/profileImages/687_1616768558846.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA52FNOKL7UYI5E4EM%2F20231023%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20231023T034437Z&X-Amz-Expires=43200&X-Amz-Signature=bff55171857656080e6af80fdf933ea6acae911a2502dd742e3a37da24cdfc27&X-Amz-SignedHeaders=host"
+        }
+      ],
+      "isFavorite": false,
+      "columns": 3
+    },
+    {
+      "displayTileName": "Kalari",
+      "tileName": "Kalari",
+      "type": "dictionary",
+      "dictionaryName": "physical fitness",
+      "tileBackground": "",
+      "skillIcon": "",
+      "availability": {
+        "status": 2,
+        "color": "#DBDBDB"
+      },
+      "moreProvidersAvailable": false,
+      "providerInfo": [
+        {
+          "providerId": 1079,
+          "profileImage": "https://s3.us-east-2.amazonaws.com/images-dev.taskhuman.com/profileImages/1079_1616768979445.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA52FNOKL7UYI5E4EM%2F20231023%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20231023T034437Z&X-Amz-Expires=43200&X-Amz-Signature=a389abba6c0686b4a7567a212ab68868f083409dcf2d51208c5c21a674f2ace1&X-Amz-SignedHeaders=host"
+        }
+      ],
+      "isFavorite": false,
+      "columns": 3
+    },
+    {
+      "displayTileName": "Plant-Based Diets",
+      "tileName": "Plant-Based Diets",
+      "type": "dictionary",
+      "dictionaryName": "physical fitness",
+      "tileBackground": "",
+      "skillIcon": "",
+      "availability": {
+        "status": 2,
+        "color": "#DBDBDB"
+      },
+      "moreProvidersAvailable": false,
+      "providerInfo": [
+        {
+          "providerId": 491,
+          "profileImage": "https://images-dev.taskhuman.com/profileImages/491_1697456110712.jpg"
+        }
+      ],
+      "isFavorite": false,
+      "columns": 3
+    },
+    {
+      "displayTileName": "Breathwork",
+      "tileName": "Breathwork",
+      "type": "dictionary",
+      "dictionaryName": "physical fitness",
+      "tileBackground": "",
+      "skillIcon": "",
+      "availability": {
+        "status": 2,
+        "color": "#DBDBDB"
+      },
+      "moreProvidersAvailable": false,
+      "providerInfo": [
+        {
+          "providerId": 1079,
+          "profileImage": "https://s3.us-east-2.amazonaws.com/images-dev.taskhuman.com/profileImages/1079_1616768979445.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA52FNOKL7UYI5E4EM%2F20231023%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20231023T034437Z&X-Amz-Expires=43200&X-Amz-Signature=a389abba6c0686b4a7567a212ab68868f083409dcf2d51208c5c21a674f2ace1&X-Amz-SignedHeaders=host"
+        }
+      ],
+      "isFavorite": false,
+      "columns": 3
+    }
+  ]
+}
