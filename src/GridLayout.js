@@ -1,6 +1,6 @@
 // react imports
 import React from 'react'
-import { Box, Flex, Grid, GridItem, Heading, Icon, Image, Text } from '@chakra-ui/react'
+import { Avatar, Box, Flex, Grid, GridItem, Heading, Icon, Image, Text } from '@chakra-ui/react'
 
 // styles and media
 import './GridLayout.css'
@@ -28,7 +28,7 @@ function GridLayout() {
                                             tileData?.providerInfo?.slice(0,4)?.map((provider, index) =>{
                                                 return (
                                                     <Box key={index} className='grid-item__provider-container' right={(tileData?.providerInfo?.length * 4) - ((index + 1) * 4)}>
-                                                        <Image src={`${provider.profileImage}`} alt={`${provider.providerId}`}
+                                                        <Avatar src={`${provider.profileImage}`} alt={`${provider.providerId}`}
                                                             className='grid-item__provider-picture' />
                                                     </Box>
                                                 );

@@ -52,8 +52,8 @@ boxShadow={'md'} bg='white' colSpan={2} p={2} borderRadius='lg' position='relati
 }
 
 .grid-item__provider-picture {
-    height: 30px;
-    width: 30px;
+    height: 30px !important;
+    width: 30px !important;
     border-radius: 999px;
     border: 2px solid white;
 }
