@@ -19,7 +19,7 @@ module.exports = {
         liveReload: true,
     },
     resolve: {
-        extensions: ['.js', '.jsx', '.json'],
+        extensions: ['.js', '.jsx', '.json', '.css'],
     },
     module: {
         rules: [
@@ -28,7 +28,11 @@ module.exports = {
                 exclude: /node_modules/,
                 use: 'babel-loader',
             },
+            { test: /\.css$/, use: [ 'style-loader', 'css-loader' ] }
         ],
+        // loaders: [
+        //     { test: /\.css$/, loader: "style-loader!css-loader" },
+        // ],
     },
     plugins: [
         new HtmlWebpackPlugin({

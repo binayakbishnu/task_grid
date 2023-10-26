@@ -3,6 +3,7 @@ import React from 'react'
 import { Box, Flex, Grid, GridItem, Heading, Icon, Image, Text } from '@chakra-ui/react'
 
 // styles and media
+import './GridLayout.css'
 import { BsAlarm } from 'react-icons/bs'
 import { BsPlusCircleFill } from 'react-icons/bs'
 
@@ -12,28 +13,24 @@ import tiles from './dummyData.json'
 function GridLayout() {
     return (
         <section>
-            <Grid bg={'gray.200'}
-                templateColumns={{ sm: 'repeat(1,fr)', sm: 'repeat(4, 1fr)', md: 'repeat(6, 1fr)' }} gap={4} padding={2}>
+            <Grid className='grid-parent'>
                 {
                     tiles?.skills?.map((tileData, index) => {
                         return (
-                            <GridItem key={index} id={`${index}-${tileData?.tileName}`} /* w='100%' */ minHeight='120px'
-                                display={'flex'} flexDirection={'column'} alignItems="flex-start" justifyContent="space-between"
-                                boxShadow={'md'} bg='white' colSpan={2} p={2} borderRadius='lg' position='relative'>
-
-                                <Flex width={'100%'} alignItems={'flex-start'} justifyContent={'space-between'}>
-                                    <Heading as='h3' size='md' maxWidth={'60%'}>
+                            <GridItem key={index} id={`${index}-${tileData?.tileName}`} className='grid-item'>
+                                <Flex className='grid-title__providers' /* width={'100%'} alignItems={'flex-start'} justifyContent={'space-between'} */>
+                                    <Heading as='h3' className='grid-item__title'>
                                         {tileData?.displayTileName}
                                     </Heading>
 
-                                    <Box flex={1} bg={'blue.500'} position={'relative'}/*  alignItems="center" justifyContent="flex-start" wrap='wrap' rowGap={0} columnGap={0} */>
+                                    <Box className='grid-item__providers-parent' /*  alignItems="center" justifyContent="flex-start" wrap='wrap' rowGap={0} columnGap={0} */>
                                         {
                                             tileData?.providerInfo?.length <= 4 &&
                                             tileData?.providerInfo?.map((provider, index) => {
                                                 return (
-                                                    <Box key={index} position={'absolute'} right={(tileData?.providerInfo?.length * 4) - ((index + 1) * 4)} top={0}>
+                                                    <Box key={index} className='grid-item__provider-container' right={(tileData?.providerInfo?.length * 4) - ((index + 1) * 4)}>
                                                         <Image src={`${provider.profileImage}`} alt={`${provider.providerId}`}
-                                                            height={'30px'} width={'30px'} borderRadius={'full'} border='2px' borderColor='white' />
+                                                            className='grid-item__provider-picture' />
                                                     </Box>
                                                 );
                                             })
@@ -44,24 +41,24 @@ function GridLayout() {
                                             tileData?.providerInfo?.length > 4 &&
                                             tileData?.providerInfo?.map((provider, index) => {
                                                 return (
-                                                    <Box key={index} position={'absolute'} right={(tileData?.providerInfo?.length * 4) - ((index) * 4)} top={0}>
+                                                    <Box key={index} className='grid-item__provider-container' right={(tileData?.providerInfo?.length * 4) - ((index) * 4)}>
                                                         <Image src={`${provider.profileImage}`} alt={`${provider.providerId}`}
-                                                            height={'30px'} width={'30px'} borderRadius={'full'} border='2px' borderColor='white' />
+                                                            className='grid-item__provider-picture' />
                                                     </Box>
                                                 );
                                             })
                                         }
                                         {
                                             tileData?.providerInfo?.length > 4 &&
-                                            <Icon as={BsPlusCircleFill} color={'gray.500'} width={'30px'} height={'30px'} position={'absolute'} right={0} />
+                                            <Icon as={BsPlusCircleFill} className='grid-item__plus-icon' right={0} />
                                         }
                                     </Box>
                                 </Flex>
 
                                 {
                                     tileData?.availability?.startTime && tileData?.availability?.endTime &&
-                                    <Flex width={'100%'} alignItems={'center'} justifyContent={'flex-end'} columnGap={1}>
-                                        <Text fontSize={'xs'} fontWeight={'bold'} align={'right'} color={'green.600'}>
+                                    <Flex className='grid-item__time-container'>
+                                        <Text className='grid-item__time-container__time'>
                                             {
                                                 new Date() ===
                                                     new Date(tileData?.availability?.startTime) ?
@@ -73,13 +70,11 @@ function GridLayout() {
                                             }
                                             -{new Date(tileData?.availability?.endTime).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' })}
                                         </Text>
-                                        <Icon as={BsAlarm} color={'green.600'} />
+                                        <Icon as={BsAlarm} className='grid-item__time-container__icon' />
                                     </Flex>
                                 }
 
-                                <Box position='absolute' left={'-0.1rem'} top={'-0.1rem'}
-                                    bg={`${tileData?.availability?.color}`} padding={0} margin={0}
-                                    borderRadius={'full'} height={'10px'} width={'10px'}>
+                                <Box className='grid-item__availability' bg={`${tileData?.availability?.color}`}>
                                 </Box>
                             </GridItem>
                         )
