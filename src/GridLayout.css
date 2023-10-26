@@ -1,6 +1,3 @@
-/* templateColumns={{ base: 'repeat(1,fr)', sm: 'repeat(4, 1fr)', md: 'repeat(6, 1fr)' }}
-gap={4} padding={2} */
-
 .grid-parent {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -9,12 +6,6 @@ gap={4} padding={2} */
     gap: 1rem;
     padding: 1rem;
 }
-
-/* 
-minHeight='120px'
-display={'flex'} flexDirection={'column'} alignItems="flex-start" justifyContent="space-between"
-boxShadow={'md'} bg='white' colSpan={2} p={2} borderRadius='lg' position='relative'
-*/
 
 .grid-item {
     min-height: 120px;
@@ -28,8 +19,6 @@ boxShadow={'md'} bg='white' colSpan={2} p={2} borderRadius='lg' position='relati
     border-radius: 0.5rem;
     position: relative;
 }
-
-/* width={'100%'} alignItems={'flex-start'} justifyContent={'space-between'} */
 
 .grid-title__providers {
     width: 100%;

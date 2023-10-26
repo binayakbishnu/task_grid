@@ -18,12 +18,12 @@ function GridLayout() {
                     tiles?.skills?.map((tileData, index) => {
                         return (
                             <GridItem key={index} id={`${index}-${tileData?.tileName}`} className='grid-item'>
-                                <Flex className='grid-title__providers' /* width={'100%'} alignItems={'flex-start'} justifyContent={'space-between'} */>
+                                <Flex className='grid-title__providers'>
                                     <Heading as='h3' className='grid-item__title'>
                                         {tileData?.displayTileName}
                                     </Heading>
 
-                                    <Box className='grid-item__providers-parent' /*  alignItems="center" justifyContent="flex-start" wrap='wrap' rowGap={0} columnGap={0} */>
+                                    <Box className='grid-item__providers-parent'>
                                         {
                                             tileData?.providerInfo?.slice(0,4)?.map((provider, index) =>{
                                                 return (
