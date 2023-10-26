@@ -29,6 +29,7 @@
 .grid-item__title {
     font-size: 1.2em !important;
     flex: 1;
+    color: #3A3A3A;
 }
 
 .grid-item__providers-parent {
@@ -67,11 +68,11 @@
     font-size: 0.7em;
     font-weight: bold;
     text-align: right;
-    color: rgb(32, 100, 32);
+    color: #2C8F77;
 }
 
 .grid-item__time-container__icon {
-    color: rgb(32, 100, 32) !important;
+    color: #2C8F77 !important;
 }
 
 .grid-item__availability {
