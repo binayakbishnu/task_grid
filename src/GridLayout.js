@@ -25,23 +25,9 @@ function GridLayout() {
 
                                     <Box className='grid-item__providers-parent' /*  alignItems="center" justifyContent="flex-start" wrap='wrap' rowGap={0} columnGap={0} */>
                                         {
-                                            tileData?.providerInfo?.length <= 4 &&
-                                            tileData?.providerInfo?.map((provider, index) => {
+                                            tileData?.providerInfo?.slice(0,4)?.map((provider, index) =>{
                                                 return (
                                                     <Box key={index} className='grid-item__provider-container' right={(tileData?.providerInfo?.length * 4) - ((index + 1) * 4)}>
-                                                        <Image src={`${provider.profileImage}`} alt={`${provider.providerId}`}
-                                                            className='grid-item__provider-picture' />
-                                                    </Box>
-                                                );
-                                            })
-                                        }
-
-                                        {/* for more than 4 providers */}
-                                        {
-                                            tileData?.providerInfo?.length > 4 &&
-                                            tileData?.providerInfo?.map((provider, index) => {
-                                                return (
-                                                    <Box key={index} className='grid-item__provider-container' right={(tileData?.providerInfo?.length * 4) - ((index) * 4)}>
                                                         <Image src={`${provider.profileImage}`} alt={`${provider.providerId}`}
                                                             className='grid-item__provider-picture' />
                                                     </Box>
