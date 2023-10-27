@@ -4,6 +4,7 @@ import { ChakraProvider } from '@chakra-ui/react'
 import GridLayout from "./GridLayout";
 
 // styles and media
+import './App.css'
 
 // misc
 
